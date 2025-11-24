@@ -6,11 +6,17 @@ import HelloBtn from './HelloBtn';
 import HelloBtn2 from './HelloBtn2';
 import AddCount from './AddCount';
 import Color from './Color';
+import CountEffect from './components/CountEffect';
+import SearchBox from './components/SearchBox';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+        <SearchBox />
+        <CountEffect />
+
         <img src={logo} className="App-logo" alt="logo" />
 
         <Hello title="oss" />
